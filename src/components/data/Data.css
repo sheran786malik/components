@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Palanquin+Dark:700|Palanquin:200,400,500,700');
+
+
+@media (min-width: 576px) {
+    .process {
+        font-size: 50px;
+        margin:0 auto;
+        font-family: 'Palanquin', sans-serif;
+        
+    }
+   
+    .sub {
+        font-family: 'Palanquin', sans-serif;
+
+    }
+}
+.process {
+    font-size: 20px;
+    font-family: 'Palanquin', sans-serif;
+   display: inline;
+   
+}
+
+
+.sub {
+    font-weight: 400;
+}
+
+.text {
+    font-weight: 500;
+}

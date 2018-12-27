@@ -1,0 +1,17 @@
+@media (min-width: 576px) {
+    .circle{
+        width: 150px;
+        height: 150px;
+        left: 259px;
+        top: 3445px;
+    }
+    
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    left: 259px;
+    top: 3445px;
+
+}

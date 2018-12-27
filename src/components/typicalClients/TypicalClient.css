@@ -1,0 +1,69 @@
+
+.typicalClient {
+    margin-top: 20px;
+    background-color: #ffff;
+    border-radius: 10px;
+    width:25%;
+    height: 120%;
+    -webkit-box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.clientName {
+    font-style: normal;
+    font-family: 'Palanquin';
+    font-style: normal;
+    font-weight: bold;
+    line-height: 47px;
+    font-size: 52px;
+    letter-spacing: -0.04em;
+}
+.title {
+    margin: 0 auto;
+    background-color: #64FFDA;
+    font-family: 'Palanquin';
+    line-height: 47px;
+    font-size: 52px;
+    letter-spacing: -0.04em;
+    font-weight: 500;   
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.data {
+    font-weight: 500;
+    font-size: 36px;
+    
+}
+.subtitle {
+    
+    padding-bottom: 15px;
+    font-size: 36px;
+    
+}
+.typicalText{
+    text-align: left;
+    font-family: 'Palanquin' sans-serif;
+    font-style: normal;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .typicalClient {
+        background-color: #ffffff;
+        width: 80%;
+        height: 25%;
+        margin: 0 auto;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+
+  }
