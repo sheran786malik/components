@@ -35,11 +35,14 @@ const Form = () => {
                     <label className="label"> Message </label>
                     <textarea
                     type="text"
-                    className="input">
+                    className="inputMessage">
                     </textarea>
                     
                </div>
+               <div className="button">
                <button className="submit">Get In Touch</button>
+               </div>
+               
                
           </form>
      </div>

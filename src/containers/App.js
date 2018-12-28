@@ -8,6 +8,9 @@ import Steps from '../components/steps/Steps';
 
 import Form from '../components/form/Form';
 
+import FeedBack from '../components/feedBack/FeedBack';
+
+import Contact from '../components/contact/Contact'
 
 class App extends Component {
   render() {
@@ -16,7 +19,9 @@ class App extends Component {
        <ProcessBanner/>
        <TypicalClient/>
       <Steps/>
+      <Contact/>
       <Form/>
+      <FeedBack/>
       </div>
     );
   }

@@ -1,0 +1,93 @@
+.contact {
+    background-color: #ffff;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.firstText {
+    font-family: 'Palanquin';
+    font-style: normal;
+    font-weight: bold;
+    line-height: 80px;
+    font-size: 3.3rem;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #4B4B4B;
+}
+
+.emailUs {
+    font-family: 'Palanquin';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 62px;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #6B6B6B;
+
+    padding-top: 50px;
+}
+.email {
+    color: #EC407A;
+
+}
+.separator {
+    
+    font-family: 'Palanquin';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 62px;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: -0.04em;
+
+    color: #6B6B6B;
+
+}
+.finalText {
+    font-family: 'Palanquin';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 62px;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #6B6B6B;
+    padding-bottom: 20px;
+}
+
+.finalTextFirst {
+    font-family: 'Palanquin';
+    font-style: normal;
+    font-weight: bold;
+    line-height: 80px;
+    font-size: 3.3rem;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #4B4B4B;
+}
+.callback {
+    color: #EC407A;
+
+}
+@media only screen 
+  and (min-device-width: 300px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+{
+
+    .contact {
+        width: 100%;
+    }
+    .firstText {
+        width: 100%;
+        font-size: 2.5rem;
+    }
+    .email {
+        font-size: 1.6rem;
+    }
+    .finalText {
+        font-size: 1.9rem;
+    }
+    
+}
