@@ -12,13 +12,15 @@
     margin-bottom: 20px;
 }
 .clientName {
-    font-style: normal;
-    font-family: 'Palanquin';
+    font-family: 'Palanquin' sans-serif;
     font-style: normal;
     font-weight: bold;
-    line-height: 47px;
-    font-size: 52px;
+    line-height: 55px;
+    font-size: 36px;
     letter-spacing: -0.04em;
+    
+    color: #303C42;
+    
 }
 .title {
     margin: 0 auto;
@@ -36,21 +38,29 @@
 .data {
     font-weight: 500;
     font-size: 36px;
+    text-align: left;
     
 }
 .subtitle {
-    
     padding-bottom: 15px;
-    font-size: 36px;
+    font-size: 38px;
+    text-align: left;
+    font-weight: 500;
     
 }
 .typicalText{
-    text-align: left;
-    font-family: 'Palanquin' sans-serif;
-    font-style: normal;
     padding-left: 30px;
     padding-bottom: 20px;
     padding-top: 15px;
+    padding-right: 15px;
+    font-weight: 100;
+    font-family: 'Palanquin' sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 49px;
+    font-size: 36px;
+    letter-spacing: -0.04em;
+    color: #303C42;
 }
 
 @media only screen 
