@@ -3,7 +3,7 @@ import React from 'react'
 import Data from '../../data/Data';
 import './Circle.css';
 
-const circle = (props) => {
+const Circle = (props) => {
     return (
    
         <svg height="100" width="100">
@@ -14,4 +14,4 @@ const circle = (props) => {
     );
 }
 
-export default circle;
+export default Circle;

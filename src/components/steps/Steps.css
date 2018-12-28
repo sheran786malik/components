@@ -1,77 +1,66 @@
+
 .containerSteps {
+    width: 100%;
+    margin: 0 auto;
+    align-content: center;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.steps {
+    display: inline-flex;
+    text-align: center;
     width: 50%;
     margin: 0 auto;
-    background-color: whitesmoke;
-    background-origin: shadow 2px;
 }
-.row {
-    justify-content: center;
-}
-.textStep {
-    margin: 0 auto;
-    display: inline;
-    font-size: 24px;
-    text-align: center;
-    letter-spacing: -0.04em;
-    padding-right: 100px;
-    font-family: Catamaran;
-    font-weight: 500;
-    line-height: 33px;
-}
-
-.circle {
-    margin: 0 auto;
-}
-
 
 .arrow {
-    padding-left: 35px;
+    display: inline-block;
+    margin: 0 auto;
+    padding-left: 50px;
 }
 
+
+
 .stepsNum {
-    padding-right: 50px;
-    font-family: 'Palanquin';
-    font-style: normal;
-    font-weight: bold;
-    line-height: 55px;
-    font-size: 36px;
     text-align: center;
-    letter-spacing: -0.04em;
 }
+
+.textStep {
+    font-family: 'Catamaran' sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33px;
+    font-size: 24px;
+    text-align: center
+}
+
 @media only screen 
-  and (min-device-width: 320px) 
+  and (min-device-width: 300px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) 
   {
 
     .containerSteps {
-        width: 50%;
         margin: 0 auto;
-        background-color: whitesmoke;
-        background-origin: shadow 2px;
-
-    }
-    .row {
-        width: 100%;
-        height: 100%;
-        display: inline-block;
-    }
-    .circle {
-        width: 100%;
-        height: 100%;
-        padding-left: 60px;
-    }
-    .stepsNum {
-        padding-right: 20px;
-        font-family: 'Palanquin';
-        font-style: normal;
-        font-weight: bold;
-        line-height: 55px;
-        font-size: 36px;
         text-align: center;
-        letter-spacing: -0.04em;
     }
+    
+    .steps {
+        flex-flow: column;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+  
+
     .arrow {
-        visibility: hidden;
+       position: absolute;
+       visibility: hidden;
     }
-}
+
+   .textStep {
+       text-align: center;
+   }
+
+  }
